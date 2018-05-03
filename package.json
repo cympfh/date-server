@@ -1,0 +1,24 @@
+{
+  "name": "date-server",
+  "version": "1.0.0",
+  "description": "just responses `date`.",
+  "main": "index.js",
+  "scripts": {
+    "start": "LC_ALL=C node index.js --port=8100",
+    "test": "date"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cympfh/date-server.git"
+  },
+  "author": "cympfh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cympfh/date-server/issues"
+  },
+  "homepage": "https://github.com/cympfh/date-server",
+  "dependencies": {
+    "argv": "0.0.2",
+    "express": "^4.16.3"
+  }
+}
